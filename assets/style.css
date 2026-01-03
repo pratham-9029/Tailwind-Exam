@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme{
+    --color-hover: #6e59a5;
+    --color-theme-700: #9b87f5;
+
+    /* linear gradient */
+    --color-start-hero: #1a1f2c;
+    --color-via-hero: #1e2233;
+    --color-stop-hero: #252a3c;
+
+    --color-start-text:#9b87f5;
+    --color-stop-text:#d6bcfa;
+
+    --color-background:#12141C;
+}
+
+@theme {
+  --animate-jiggle: jiggle 3s ease-in-out infinite;
+  @keyframes jiggle {
+    0%,
+    100% {
+      transform: translateY(-3%);
+    }
+    50% {
+      transform: translateY(3%);
+    }
+  }
+}
